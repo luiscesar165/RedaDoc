@@ -8,8 +8,7 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="mb-1">
-                <p class="text_footer" style="font-size:18px;">
-                  Somos una empresa B2B enfocada en agilizar la digitalización de las empresas.
+                <p class="text_footer" style="font-size:18px;">Somos una agencia de contenido especializado en salud, con medicos formados en copywriting y posicionamiento web.
                 </p>
                 <ul class="socials">
                   <li><a href="https://www.facebook.com/OXAS-TECH-108906604277879" class="icon-facebook fs-20"></a></li>
@@ -31,10 +30,9 @@
             <div class="col col-lg-2">
               <ul class="list-group list-group-minimal">
                 <h6 class="list-group-item">Servicios</h6>
-                <li class="list-group-item"><span class="h6 text-muted">Redes Sociales</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Identidad Corporativa</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Diseño UX/IU</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Desarrollo Web</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Articulos de blog</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Post para Redes Sociales</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Pagina de Venta</span></li>
               </ul>
             </div>
             {{-- <div class="col col-lg-2">
@@ -48,10 +46,10 @@
               </ul>
             </div> --}}
             <div class="col-lg-2 text-lg-right">
-              <a href="tel:58-414-344-62-25" class="phone bordered">+584143446225</a>
+              <a href="tel:58-414-344-62-25" class="phone bordered">+584243138775</a>
             </div>
           </div>
-          <span class="copyright-text">&copy; <b> Eutuxia Group, C.A. J-50017524-8</b>  -  Todos los derechos reservados 2020.</span>
+          <span class="copyright-text">&copy; <b> RedaDoc </b>  -  Todos los derechos reservados 2021.</span>
         </div>
       </footer>
     </div>

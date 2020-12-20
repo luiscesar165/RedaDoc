@@ -217,3 +217,7 @@ Route::resource('Lead', 'LeadController');
 Route::get('/politicas-de-privacidad', function(){
 	return view('politicas_privacidad');
 })->name('politicas_privacidad');
+
+Route::get('/hola', function(){
+	view('hola');
+});
