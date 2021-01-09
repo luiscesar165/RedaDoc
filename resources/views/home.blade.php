@@ -58,38 +58,6 @@ $color_header='dark';
         </div>
        <div class="row" data-aos="fade-up" data-aos-delay="250">
           <div class="col">
-            <div class="owl-carousel visible gallery align-bottom" data-items="[3,2,2]" data-margin="20" data-loop="true" data-autoplay="true">
-              <figure class="photo equal equal-short">
-                <a href="../../assets/images/demo/image-1.jpg" 
-                  style="background-image: url(../../assets/images/demo/image-1.jpg);">
-                </a>
-              </figure>
-              <figure class="photo equal">
-                <a href="../../assets/images/demo/image-2.jpg" 
-                  style="background-image: url(../../assets/images/demo/image-2.jpg);">
-                </a>
-              </figure>
-              <figure class="photo equal equal-short">
-                <a href="../../assets/images/demo/image-3.jpg" 
-                  style="background-image: url(../../assets/images/demo/image-3.jpg);">
-                </a>
-              </figure>
-              <figure class="photo equal">
-                <a href="../../assets/images/demo/image-4.jpg" 
-                  style="background-image: url(../../assets/images/demo/image-4.jpg);">
-                </a>
-              </figure>
-              <figure class="photo equal equal-short">
-                <a href="../../assets/images/demo/image-5.jpg" 
-                  style="background-image: url(../../assets/images/demo/image-5.jpg);">
-                </a>
-              </figure>
-              <figure class="photo equal">
-                <a href="../../assets/images/demo/image-2.jpg"
-                  style="background-image: url(../../assets/images/demo/image-2.jpg);">
-                </a>
-              </figure>
-            </div>
           </div>
         </div>
       </div>
@@ -97,7 +65,7 @@ $color_header='dark';
     <!-- / cover -->
 
 <section>
-  <h1>Tienes una página web, pero sin contenido y pocos conversiones </h1>
+  <h1>Tienes una página web, pero sin contenido y pocas conversiones</h1>
   <p>Crear contenido para las web de salud puede ser complejo por dos razones: 
 
 Existen términos que no todos manejan y también se debe verificar que la información sea real 

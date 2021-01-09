@@ -21,18 +21,18 @@
             <div class="col col-lg-2">
               <ul class="list-group list-group-minimal">
                 <h6 class="list-group-item">Productos</h6>
-                <li class="list-group-item"><span class="h6 text-muted">Landing Page</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Web Corporativas</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Tiendas Virtuales</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Aplicaciones web</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Artículos de blog</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Post para Redes Sociales</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Pagina de venta</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">
               </ul>
             </div>
             <div class="col col-lg-2">
               <ul class="list-group list-group-minimal">
                 <h6 class="list-group-item">Servicios</h6>
-                <li class="list-group-item"><span class="h6 text-muted">Articulos de blog</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Post para Redes Sociales</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Pagina de Venta</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Asesoria</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Edición de texto</span></li>
+                <li class="list-group-item"><span class="h6 text-muted">Formación en copywriting médico</span></li>
               </ul>
             </div>
             {{-- <div class="col col-lg-2">
