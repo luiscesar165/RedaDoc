@@ -21,11 +21,18 @@
 <meta property="twitter:description" content="Somos una agencia de contenido especializado en salud, con medicos formados en copywriting y posicionamiento web.">
 <meta property="twitter:image" content="{{asset('imagen/oxas/share.jpg')}}">
 {{-- url canonical --}}
-{{-- <link rel="canonical" href="https://oxas.tech" /> --}}
-<style>
- 
+<link rel="canonical" href="https://redadoc.com" />
 
-</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1HNXWEPSL9"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'G-1HNXWEPSL9');
+</script>
+
 @endsection
 
 @section('content')
