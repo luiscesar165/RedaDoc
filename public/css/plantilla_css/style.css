@@ -1308,7 +1308,7 @@ pre {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #e5e5e5;
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .form-control {
@@ -1319,7 +1319,7 @@ pre {
   .form-control:focus {
     color: #151515;
     background-color: #fff;
-    border-color: #8ED825;
+    border-color: #000000;
     outline: 0;
     box-shadow: 0; }
   .form-control::placeholder {
@@ -1706,23 +1706,23 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #8ED825;
-  border-color: #8ED825; }
+  background-color: #6C63FF;
+  border-color: #000000; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #80c221;
-    border-color: #80c221; }
+    background-color: #2F2E41;
+    border-color: #2F2E41; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0 rgba(99, 73, 190, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     background-color: #9ba093;
-    border-color: #8ED825; }
+    border-color: #605f7b; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #80c221;
-    border-color: #80c221; }
+    background-color: #2F2E41;
+    border-color: #2F2E41; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0 rgba(99, 73, 190, 0.5); }
@@ -21338,3 +21338,131 @@ pre[class*="language-"] {
     right: 1.875rem; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*---------------------------CSS Adicionales ------------------------------*/
+
+.azul-main{
+  background :#6C63FF;
+}
+h1,h2,h3,h4,h5,h6, span{
+  font-family: 'Reem Kufi', sans-serif;
+}
+.resaltado-azul{
+  color:#6C63FF;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+p.main{
+  color:#2F2E41
+}
+
+button.main{
+  background: #6C63FF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  color: #FFFFFF;
+}
+
+button.main:hover{
+  background: #2F2E41;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.cta-agenda{
+  background: #6C63FF;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+}
+.cta-agenda button{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: inherit;
+  height: 80px;
+}
+.cta-agenda button:hover{
+  background: #d6d6d6;
+  color: #000000;
+}
+.cta-agenda p{
+  color: #FFFFFF;
+}
+
+.card{
+  background-color: #A39EFF;
+  padding: 30px;
+  height: 375px;
+  max-width: 330px;
+  background: #A39EFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+
+}
+.title-card h5{
+  color: black;
+}
+.title-card p{
+  color: #3F3D56;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+.boton-card{
+  z-index: 10;
+  position: absolute;
+  bottom: 40px;
+  left: 2vw;  
+}
+@media (max-width: 600px){
+  .boton-card{
+      position: absolute;
+      bottom: 40px;
+      left: 5vw;
+  }
+}
+.boton-card button{
+  background-color: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  
+}
+.icono-card{
+  z-index: 1;
+}
+
+.icono-card img{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.text-pretty-title{
+  font-family: Reenie Beanie;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.text-pretty-content{
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+.bg-proposal{
+  background-color: #E8F5FF;
+  background: #E8F5FF;
+}

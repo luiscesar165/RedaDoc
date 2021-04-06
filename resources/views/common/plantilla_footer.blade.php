@@ -10,13 +10,13 @@
             <div class="col-lg-8">
               <div class="row">
                 <div class="col-12 text-center">
-                  <h4> <span class="text-primary">RedaDoc</span> - Creamos el contenido de salud por ti</h4>
+                  <h4> <span class=""  style="color: rgb(108, 99, 255)">RedaDoc</span> - Creamos el contenido de salud por ti</h4>
                 </div>
                 <div class="col-12 mb-1 text-center">
                   <ul class="socials">
-                    <li><a href="https://www.facebook.com/OXAS-TECH-108906604277879" class="icon-facebook fs-20"></a></li>
-                    <li><a href="https://www.instagram.com/oxas.tech/" class="icon-instagram fs-20"></a></li>
-                    <li><a href="https://www.linkedin.com/company/oxastech" class="icon-linkedin fs-20"></a></li>
+                    <li><a href="https://www.facebook.com/Drmaitap" class="icon-facebook fs-20"></a></li>
+                    <li><a href="https://www.instagram.com/drmaitap/?hl=es" class="icon-instagram fs-20"></a></li>
+                    <li><a href="https://www.linkedin.com/in/drluis-maita/" class="icon-linkedin fs-20"></a></li>
                   </ul>
                 </div>
               </div>
@@ -26,14 +26,14 @@
             
             <div class="col-lg-4">
                 <div class="row d-none d-lg-flex">
-                  <div class="col-3">Inicio</div>
-                  <div class="col-3">Blog</div>
-                  <div class="col-3">Servicios</div>
-                  <div class="col-3">Contacto</div>
+                  <div class="col-3"><a href="#inicio">Inicio</a></div>
+                  <div class="col-3"><a href="#servicios">Servicios</a></div>
+                  <div class="col-3"><a href="https://www.drmaitablog.site/">Blog</a></div>
+                  <div class="col-3"><a href="#form-contactos">Contacto</a></div>
                 </div>
                 <div class="row">
                   <div class="col-12 text-center text-muted">Contactanos directamente por...</div>
-                  <div class="col-12 text-center text-primary h5">redadocempresa@gmail.com</div>
+                  <div class="col-12 text-center h5" style="color: rgb(108, 99, 255)">redadocempresa@gmail.com</div>
                   <div class="col-12 text-center">+58 424 3138775</div>
                 </div>
             </div>
