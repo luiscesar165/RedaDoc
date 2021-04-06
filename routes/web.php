@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Cms\Product;
-use App\Cms\Service;
-use App\Cms\Project;
+// use App\Cms\Product;
+// use App\Cms\Service;
+// use App\Cms\Project;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +15,75 @@ use App\Cms\Project;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// inicio
+Route::get('/', 'MainController@home');
+
+
+
+
+// Route::get('/gracias-por-contactarnos', 'MainController@contactanos')->name('gracias');
+// Route::get('/contactanos', 'MainController@contactanos')->name('contactanos');
+
+
+// Route::post('/contacto/send', 'Cms\MessageController@sendMessage')->name('contacto.send');
+
+// Route::get('/blog', 'MainController@blog')->name('blog');
+// Route::get('/blog/cat/{category_id}', 'MainController@blogCat')->name('blog.cat');
+
+// Route::get('/blog/{slug}', 'MainController@blogDetail')->name('blog.show');
+
+// Route::get('/productos/{id}', 'MainController@productos')->name('product.option');
+// Route::get('/proyectos/{id}', 'MainController@proyectos')->name('project.option');
+
+
+
+
+// Route::get('/servicios', function () {
+// 	$productos = Product::all();
+// 	$servicios = Service::all();
+// 	$proyectos = Project::all();
+//     return view('servicios')->with(compact('productos', 'servicios', 'proyectos'));
+// });
+
+// Route::get('/servicios/{id}', 'MainController@servicios')->name('service.option');
+
+// Route::get('/nosotros', function () {
+// 	$productos = Product::all();
+// 	$servicios = Service::all();
+// 	$proyectos = Project::all();
+//     return view('nosotros')->with(compact('productos', 'servicios', 'proyectos'));
+// });
+
+// Route::get('/servicios', function () {
+// 	$productos = Product::all();
+// 	$servicios = Service::all();
+// 	$proyectos = Project::all();
+//     return view('servicios')->with(compact('productos', 'servicios', 'proyectos'));
+// });
+
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+// funnels
+// Route::get('/tienda-de-instagram-venezuela', 'FunnelController@funnel_01')->name('funnel_01');
+// Route::get('/tienda-de-instagram-ropa', 'FunnelController@funnel_02')->name('funnel_02');
+// Route::get('/tienda-de-instagram-empresa', 'FunnelController@funnel_03')->name('funnel_03');
+// Route::get('/tienda-de-instagram-venezuela_ok', 'FunnelController@funnel_01_ok')->name('funnel_01_ok');
+// Route::get('/tienda-de-instagram-venta', 'FunnelController@funnel_04_venta')->name('funnel_o4_venta');
+
+//leads
+Route::resource('Lead', 'LeadController');
+
+//politicas de privacidad
+// Route::get('/politicas-de-privacidad', function(){
+// 	return view('politicas_privacidad');
+// })->name('politicas_privacidad');
+
+// Route::get('/hola', function(){
+// 	view('hola');
+// });
 
 Route::get('/cms', function () {
 	if (Auth::check()) {
@@ -153,71 +223,4 @@ Route::prefix('cms')->middleware('auth')->group(function () {
 
 	//-------------- LEADS ----------------
 	Route::get('/leads', 'LeadController@index')->name('lead.home');
-});
-
-
-
-Route::get('/', 'MainController@home');
-
-Route::get('/contactanos', 'MainController@contactanos')->name('contactanos');
-Route::get('/gracias-por-contactarnos', 'MainController@contactanos')->name('gracias');
-
-
-Route::post('/contacto/send', 'Cms\MessageController@sendMessage')->name('contacto.send');
-
-Route::get('/blog', 'MainController@blog')->name('blog');
-Route::get('/blog/cat/{category_id}', 'MainController@blogCat')->name('blog.cat');
-
-Route::get('/blog/{slug}', 'MainController@blogDetail')->name('blog.show');
-
-Route::get('/productos/{id}', 'MainController@productos')->name('product.option');
-
-
-Route::get('/proyectos/{id}', 'MainController@proyectos')->name('project.option');
-
-
-Route::get('/servicios', function () {
-	$productos = Product::all();
-	$servicios = Service::all();
-	$proyectos = Project::all();
-    return view('servicios')->with(compact('productos', 'servicios', 'proyectos'));
-});
-
-Route::get('/servicios/{id}', 'MainController@servicios')->name('service.option');
-
-Route::get('/nosotros', function () {
-	$productos = Product::all();
-	$servicios = Service::all();
-	$proyectos = Project::all();
-    return view('nosotros')->with(compact('productos', 'servicios', 'proyectos'));
-});
-
-Route::get('/servicios', function () {
-	$productos = Product::all();
-	$servicios = Service::all();
-	$proyectos = Project::all();
-    return view('servicios')->with(compact('productos', 'servicios', 'proyectos'));
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-// funnels
-Route::get('/tienda-de-instagram-venezuela', 'FunnelController@funnel_01')->name('funnel_01');
-Route::get('/tienda-de-instagram-ropa', 'FunnelController@funnel_02')->name('funnel_02');
-Route::get('/tienda-de-instagram-empresa', 'FunnelController@funnel_03')->name('funnel_03');
-Route::get('/tienda-de-instagram-venezuela_ok', 'FunnelController@funnel_01_ok')->name('funnel_01_ok');
-Route::get('/tienda-de-instagram-venta', 'FunnelController@funnel_04_venta')->name('funnel_o4_venta');
-
-//leads
-Route::resource('Lead', 'LeadController');
-
-//politicas de privacidad
-Route::get('/politicas-de-privacidad', function(){
-	return view('politicas_privacidad');
-})->name('politicas_privacidad');
-
-Route::get('/hola', function(){
-	view('hola');
 });

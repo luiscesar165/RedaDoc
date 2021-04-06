@@ -2,54 +2,49 @@
 <footer class="tab-content" id="component-4">
   <div class="tab-pane show active" id="component-4-2" role="tabpanel" aria-labelledby="component-4-2">
     <div class="component-example component-example-fit">
-      <footer class="bg-dark text-white separator-top">
+      <footer class="text-white separator-top" style="background:#2F2E41">
         
         <div class="container">
           <div class="row">
-            <div class="col-lg-4">
-              <div class="mb-1">
-                <p class="text_footer" style="font-size:18px;">Somos una agencia de contenido especializado en salud, con medicos formados en copywriting y posicionamiento web.
-                </p>
-                <ul class="socials">
-                  <li><a href="https://www.facebook.com/OXAS-TECH-108906604277879" class="icon-facebook fs-20"></a></li>
-                  <li><a href="https://www.instagram.com/oxas.tech/" class="icon-instagram fs-20"></a></li>
-                  <li><a href="https://www.linkedin.com/company/oxastech" class="icon-linkedin fs-20"></a></li>
-                  {{-- <li><a href="" class="icon-twitter fs-20"></a></li> --}}
-                </ul>
+            {{-- Redes sociales --}}
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <h4> <span class=""  style="color: rgb(108, 99, 255)">RedaDoc</span> - Creamos el contenido de salud por ti</h4>
+                </div>
+                <div class="col-12 mb-1 text-center">
+                  <ul class="socials">
+                    <li><a href="https://www.facebook.com/Drmaitap" class="icon-facebook fs-20"></a></li>
+                    <li><a href="https://www.instagram.com/drmaitap/?hl=es" class="icon-instagram fs-20"></a></li>
+                    <li><a href="https://www.linkedin.com/in/drluis-maita/" class="icon-linkedin fs-20"></a></li>
+                  </ul>
+                </div>
               </div>
+              
             </div>
-            <div class="col col-lg-2">
-              <ul class="list-group list-group-minimal">
-                <h6 class="list-group-item">Productos</h6>
-                <li class="list-group-item"><span class="h6 text-muted">Artículos de blog</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Post para Redes Sociales</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Pagina de venta</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">
-              </ul>
+            {{-- Redes sociales --}}
+            
+            <div class="col-lg-4">
+                <div class="row d-none d-lg-flex">
+                  <div class="col-3"><a href="#inicio">Inicio</a></div>
+                  <div class="col-3"><a href="#servicios">Servicios</a></div>
+                  <div class="col-3"><a href="https://www.drmaitablog.site/">Blog</a></div>
+                  <div class="col-3"><a href="#form-contactos">Contacto</a></div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center text-muted">Contactanos directamente por...</div>
+                  <div class="col-12 text-center h5" style="color: rgb(108, 99, 255)">redadocempresa@gmail.com</div>
+                  <div class="col-12 text-center">+58 424 3138775</div>
+                </div>
             </div>
-            <div class="col col-lg-2">
-              <ul class="list-group list-group-minimal">
-                <h6 class="list-group-item">Servicios</h6>
-                <li class="list-group-item"><span class="h6 text-muted">Asesoria</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Edición de texto</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Formación en copywriting médico</span></li>
-              </ul>
-            </div>
-            {{-- <div class="col col-lg-2">
-              <ul class="list-group list-group-minimal">
-                <h6 class="list-group-item">Mapa del sitio</h6>
-                <li class="list-group-item"><a href="">Inicio</a></li>
-                <li class="list-group-item"><a href="">Proyecto</a></li>
-                <li class="list-group-item"><a href="">Productos</a></li>
-                <li class="list-group-item"><a href="">Servicios</a></li>
-                <li class="list-group-item"><a href="">Contacto</a></li>
-              </ul>
-            </div> --}}
-            <div class="col-lg-2 text-lg-right">
-              <a href="tel:58-414-344-62-25" class="phone bordered">+584243138775</a>
+            
+       
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <span class="copyright-text text-center">&copy; <b>2021 - Redadoc.</b> Todos los derechos reservados</span>
             </div>
           </div>
-          <span class="copyright-text">&copy; <b> RedaDoc </b>  -  Todos los derechos reservados 2021.</span>
         </div>
       </footer>
     </div>
