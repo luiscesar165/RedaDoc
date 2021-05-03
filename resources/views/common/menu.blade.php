@@ -13,7 +13,7 @@
           </ul>
           <ul class="navbar-nav align-items-center mr-0">
             <li class="nav-item">
-              <a class="nav-link" href="#inicio" role="button">
+              <a class="nav-link" href="/#inicio" role="button">
                 Inicio
               </a>
             </li>
@@ -23,12 +23,12 @@
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#servicios">
+              <a class="nav-link" href="/#servicios">
                Servicios
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#form-contactos">
+              <a class="nav-link" href="/#form-contactos">
                 Contacto
               </a>
             </li>

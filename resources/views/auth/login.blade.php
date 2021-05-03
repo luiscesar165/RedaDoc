@@ -83,29 +83,29 @@ body {
     <form class="form-signin" method="post" action="{{ route('login') }}">
         @csrf
         @method('post')
-  <img class="mb-4" src="{{asset('imagen/oxas/logo_dark.svg')}}" alt="" width="72" height="72">
-  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+  <img class="mb-4" src="{{asset('/imagen/svg/contacto.svg')}}" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Por favor, ingresa</h1>
   @error('email')
   <span class="invalid-feedback" role="alert">
       <strong>{{ $message }}</strong>
   </span>
 @enderror
 
-  <label for="inputEmail" class="sr-only">Email address</label>
-  <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-  <label for="inputPassword" class="sr-only">Password</label>
+  <label for="inputEmail" class="sr-only">Email</label>
+  <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="Email" required autocomplete="email" autofocus>
+  <label for="inputPassword" class="sr-only">contraseña</label>
   <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
   <div class="checkbox mb-3">
     <label>
       {{-- <input type="checkbox" value="remember-me"> Remember me --}}
     </label>
   </div>
-  @if (Route::has('password.request'))
+  {{-- @if (Route::has('password.request'))
   <a class="btn btn-link" href="{{ route('password.request') }}">
       {{ __('Forgot Your Password?') }}
   </a>
-@endif
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  @endif --}}
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar sesion</button>
   <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
 </form>
 </body>

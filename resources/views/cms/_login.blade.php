@@ -83,7 +83,7 @@ body {
     <form class="form-signin" method="post" action="/login">
         @csrf
         @method('post')
-  <img class="mb-4" src="{{asset('imagen/oxas/logo_dark.svg')}}" alt="" width="72" height="72">
+  <img class="mb-4" src="{{asset('/imagen/svg/contacto.svg')}}" alt="" width="72" height="72">
   <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
   @if (session('error'))
       <div class="alert alert-danger" role="alert">

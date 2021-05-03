@@ -35,7 +35,11 @@
             <td>{{$lead->email}}</td>
             <td>{{$lead->funnel}}</td>
             <td class="d-flex ">
-              
+              <form action="{{route('Lead.destroy', $lead->id)}}" method="POST">
+                @csrf
+                @method('delete')
+                <input type="submit" value="Eliminar" type="button" class="btn btn-sm btn-outline-danger">
+              </form>
             </td>
           </tr>
         @endforeach

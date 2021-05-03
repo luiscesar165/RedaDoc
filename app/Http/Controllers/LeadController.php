@@ -46,9 +46,11 @@ class LeadController extends Controller
         $nombre = $request->nombre;
         $correo = $request->correo;
         $funnel = $request->funnel_type;
-        if (isset($request->id_funnel)){
-            $id_funnel = $request->id_funnel;
+        if($request->hora){
+            $horario = $request->hora;
+            $funnel = $funnel.' '.$horario;
         }
+      
         //crear Lead
         $Lead = Lead::create(
             [
@@ -60,17 +62,7 @@ class LeadController extends Controller
         // Store a piece of data in the session...
         session(['usuario_name' => $nombre, 'usuario_email'=>$correo ]);
 
-        if (isset($request->id_funnel)){
-            //funnel de venta 01
-            if ($id_funnel=='01'){
-                 // Store a piece of data in the session...
-                session(['usuario_hot' => $nombre, 'email_hot'=>$correo ]);
-                return back();
-            }
-
-        }else{
-            return redirect('/tienda-de-instagram-venezuela_ok');
-        }
+        return redirect('/gracias');
 
     }
 
@@ -116,6 +108,9 @@ class LeadController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $lead = Lead::findOrFail($id);
+        $lead->delete();
+        return back()->with('error', 'Lead eliminado con éxito');
+
     }
 }

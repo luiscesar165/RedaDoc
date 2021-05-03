@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 // use App\Cms\Product;
 // use App\Cms\Service;
@@ -18,7 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 // inicio
 Route::get('/', 'MainController@home');
-
+Route::get('/gracias', function(){
+	return view('gracias');
+});
 
 
 
@@ -92,10 +95,9 @@ Route::get('/cms', function () {
 	}else{
 		return view('auth.login');
 	}
-})->name('login');
+});
 
 
-Route::post('/login', 'LoginController@authenticate');
 
 Route::prefix('cms')->middleware('auth')->group(function () {
 

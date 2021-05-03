@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v4.0.1">
-  <title>Administración Oxapp</title>
+  <title>Administración RedaDoc</title>
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
   <link rel="stylesheet" href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}">
@@ -38,7 +38,7 @@
 
 <body>
   <nav class="navbar navbar-dark sticky-top bg-success flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" target="_blank" href="https://ceaca.com/">Oxapp</a>
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" target="_blank" href="https://ceaca.com/">Redadoc</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -63,31 +63,8 @@
                 Inicio
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{route('section.home')}}">
-                <span data-feather="home"></span>
-                Secciones
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{route('producto.home')}}">
-                <span data-feather="home"></span>
-                Productos
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{route('service.home')}}">
-                <span data-feather="home"></span>
-                Servicios
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{route('project.home')}}">
-                <span data-feather="home"></span>
-                Proyectos
-              </a>
-            </li>
-            <li class="nav-item">
+        
+            {{-- <li class="nav-item">
               <a class="nav-link" href="{{route('blog.category')}}">
                 <span data-feather="home"></span>
                 Blog Categorias
@@ -98,13 +75,13 @@
                 <span data-feather="home"></span>
                 Blog Articulos
               </a>
-            </li>
-            <li class="nav-item">
+            </li> --}}
+            {{-- <li class="nav-item">
               <a class="nav-link" href="{{route('message.home')}}">
                 <span data-feather="home"></span>
                 Mensajes
               </a>
-            </li>
+            </li> --}}
             <li class="nav-item">
               <a class="nav-link" href="{{route('lead.home')}}">
                 <span data-feather="home"></span>
