@@ -23,19 +23,14 @@
 {{-- url canonical --}}
 <link rel="canonical" href="https://redadoc.com/gracias" />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1HNXWEPSL9"></script>
-<script>
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
-
- gtag('config', 'G-1HNXWEPSL9');
-</script>
-
 @endsection
 
 @section('content')
+  <!-- Event snippet for Enviar formulario de clientes potenciales Redadoc conversion page -->
+  <script>
+  gtag('event', 'conversion', {'send_to': 'AW-842391238/EY5ICM7v9Y0CEMa915ED'});
+  </script>
+
   {{-- cover principal --}}
   @include('gracias.cover-main')
   

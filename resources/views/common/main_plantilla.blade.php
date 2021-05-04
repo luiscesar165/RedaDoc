@@ -10,8 +10,8 @@
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-
 	gtag('config', 'G-1HNXWEPSL9');
+	gtag('config', 'AW-842391238');
 	</script>
 
 </head>
